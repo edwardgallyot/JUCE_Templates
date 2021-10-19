@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+4ce76bf1873d533ed91e3627459b7dee GuiApp_artefacts/JuceLibraryCode/JuceHeader.h

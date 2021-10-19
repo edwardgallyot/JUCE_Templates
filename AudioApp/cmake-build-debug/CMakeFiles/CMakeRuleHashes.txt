@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+c0ac26416e2a45c0013834a84453b052 AudioApp_artefacts/JuceLibraryCode/JuceHeader.h

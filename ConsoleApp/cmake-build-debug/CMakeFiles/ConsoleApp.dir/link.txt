@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ConsoleApp.dir/Main.cpp.o CMakeFiles/ConsoleApp.dir/home/edgallyot/drives/2TB_SSD/Documents/JUCE/modules/juce_core/juce_core.cpp.o -o ConsoleApp_artefacts/Debug/ConsoleApp  -lrt -ldl -lpthread 

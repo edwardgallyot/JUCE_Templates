@@ -1,0 +1,17 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.0") 
+-- Checking for module 'alsa'
+--   Found alsa, version 1.2.5.1
+-- Checking for module 'freetype2'
+--   Found freetype2, version 24.0.18
+-- Checking for module 'libcurl'
+--   Found libcurl, version 7.79.1
+-- Checking for modules 'webkit2gtk-4.0;gtk+-x11-3.0'
+--   Found webkit2gtk-4.0, version 2.32.4
+--   Found gtk+-x11-3.0, version 3.24.30
+-- Configuring juceaide
+-- Building juceaide
+-- Exporting juceaide
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+f7f380a1aa7a2ec20aa1bd58f2c4550f ConsoleApp_artefacts/JuceLibraryCode/JuceHeader.h

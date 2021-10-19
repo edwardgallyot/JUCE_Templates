@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JUCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\JUCE\;CMake Files\..\..\JUCE\extras\;CMake Files\..\..\JUCE\extras\Build\;CMake Files\..\..\JUCE\extras\Build\CMake\;CMake Files\..\..\JUCE\extras\Build\juceaide\;CMake Files\..\..\JUCE\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\bin\;CMake Files\cmake-build-debug\bin\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/JUCEModuleSupport.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/../../JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\..\JUCE\modules\"/>
+		</Unit>
+		<Unit filename="/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/ConsoleApp/cmake-build-debug/bin/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\bin\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
