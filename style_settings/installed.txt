@@ -1,0 +1,4 @@
+com.adebesin.spacemacs
+com.mallowigi
+com.vecheslav.darculaDarkerTheme
+intellij.prettierJS
