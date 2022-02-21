@@ -14,7 +14,7 @@ cmake_minimum_required(VERSION 3.15)
 # `project()` command. `project()` sets up some helpful variables that describe source/binary
 # directories, and the current project version. This is a standard CMake command.
 
-set(projectName AudioPlugin)
+set(projectName Test)
 
 project(${projectName} VERSION 0.0.1)
 
@@ -25,7 +25,7 @@ add_compile_definitions(DONT_SET_USING_JUCE_NAMESPACE)
 # included JUCE directly in your source tree (perhaps as a submodule), you'll need to tell CMake to
 # include that subdirectory as part of the build.
 
-# find_package(JUCE CONFIG REQUIRED)        # If you've installed JUCE to your system
+find_package(JUCE CONFIG REQUIRED)        # If you've installed JUCE to your system
 # or
 #MAC
 #add_subdirectory(/Users/edwardgallyot/JUCE bin)                  
@@ -76,6 +76,8 @@ juce_generate_juce_header(${projectName})
 
 target_sources(${projectName}
     PRIVATE
+        BaseProcessor.cpp
+        BaseProcessor.h
         PluginEditor.cpp
         PluginProcessor.cpp)
 
@@ -116,3 +118,5 @@ target_link_libraries(${projectName}
         juce::juce_recommended_config_flags
         juce::juce_recommended_lto_flags
         juce::juce_recommended_warning_flags)
+
+

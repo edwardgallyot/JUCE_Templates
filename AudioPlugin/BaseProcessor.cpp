@@ -118,3 +118,4 @@ bool BaseProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const
     return true;
 #endif
 }
+

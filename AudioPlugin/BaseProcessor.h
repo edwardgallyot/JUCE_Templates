@@ -36,3 +36,4 @@ class BaseProcessor : virtual public juce::AudioProcessor
 
 
 #endif //DISTORTED_BASEPROCESSOR_H
+

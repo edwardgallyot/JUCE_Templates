@@ -1,14 +1,15 @@
 #pragma once
 
 #include <JuceHeader.h>
+#include "BaseProcessor.h"
 
 //==============================================================================
-class AudioPluginAudioProcessor : public BaseProcessor
+class PluginProcessor : public BaseProcessor
 {
 public:
     //==============================================================================
-    AudioPluginAudioProcessor();
-    ~AudioPluginAudioProcessor() override;
+    PluginProcessor();
+    ~PluginProcessor() override;
 
     //==============================================================================
     void prepareToPlay(double sampleRate, int samplesPerBlock) override;
@@ -22,5 +23,6 @@ public:
 
 private:
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(AudioPluginAudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(PluginProcessor)
 };
+
