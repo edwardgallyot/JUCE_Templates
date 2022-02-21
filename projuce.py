@@ -5,18 +5,6 @@ from pathlib import Path
 
 print("Welcome to projuce.py")
 
-ostype = 0
-
-while ostype != 1 and ostype != 2:
-    print(
-        """Choose OS:
-        1. Mac
-        2. Linux"""
-    )
-    user = input()
-    ostype = int(user)
-
-
 option = 0
 
 while option > 4 or option < 1:
@@ -46,6 +34,9 @@ print("Please type a project name: ")
 
 projectName = input()
 
+print("Please type the absolute file path for JUCE install")
+
+JUCE_install = input()
 
 print("Please type the absolute file path for destination")
 
@@ -75,6 +66,8 @@ cMakeFile = open(Path(newPath) / "CMakeLists.txt")
 
 cMakeProjectName = "set(projectName " + projectName + ")"
 
+cMakePrefixPath = "list(APPEND CMAKE_PREFIX_PATH " + '''"''' + JUCE_install + '''"''' + ")"
+
 cMakeFileAsString = cMakeFile.read()
 
 cMakeFileAsLines = cMakeFileAsString.split("\n")
@@ -86,26 +79,14 @@ i = 0
 
 for line in cMakeFileAsLines:
     if "set(projectName" in line:
-        print("/n" + cMakeFileAsLines[i] + " changed to " + cMakeProjectName)
+        print(cMakeFileAsLines[i] + " changed to " + cMakeProjectName)
         cMakeFileAsLines[i] = cMakeProjectName
+        print("")
 
-    if ostype == 1 and "#MAC" in line:
-        print(
-            "/n"
-            + cMakeFileAsLines[i + 1]
-            + " changed to "
-            + cMakeFileAsLines[i + 1][1:]
-        )
-        cMakeFileAsLines[i + 1] = cMakeFileAsLines[i + 1][1:]
-
-    if ostype == 2 and "#LINUX" in line:
-        print(
-            "/n"
-            + cMakeFileAsLines[i + 1]
-            + " changed to "
-            + cMakeFileAsLines[i + 1][1:]
-        )
-        cMakeFileAsLines[i + 1] = cMakeFileAsLines[i + 1][1:]
+    if "JUCE_INSTALL_PATH" in line:
+        print(cMakeFileAsLines[i] + "changed to " + cMakePrefixPath)
+        cMakeFileAsLines[i] = cMakePrefixPath
+        print("")
 
     i += 1
 
