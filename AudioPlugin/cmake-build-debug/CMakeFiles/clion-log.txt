@@ -1,7 +1,19 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/AudioPlugin
--- Configuring juceaide
--- Building juceaide
--- Exporting juceaide
--- Configuring done
--- Generating done
--- Build files have been written to: /home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/AudioPlugin/cmake-build-debug
+-- The C compiler identification is GNU 11.1.0
+-- The CXX compiler identification is GNU 11.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:47 (juce_add_plugin):
+  Unknown CMake command "juce_add_plugin".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/edgallyot/drives/2TB_SSD/Documents/JUCE_Templates/AudioPlugin/cmake-build-debug/CMakeFiles/CMakeOutput.log".
